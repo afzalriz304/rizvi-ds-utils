@@ -1,3 +1,5 @@
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.afzalriz304/rizvi-ds-utils/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.afzalriz304/rizvi-ds-utils)
+
 Steps to upload repo on maven central
 
 1. Goto Apache Maven -
