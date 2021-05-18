@@ -19,19 +19,10 @@ public class Node implements Cloneable {
         this.type = type;
     }
 
-    public static void main(String[] args) {
+    public Node CreateLinkedList() {
 
-        /* Adding three node to the linked list */
-        // declaring the head of the linkedlist
-        Node node = new Node();
-        node.addNodesToLinkedList();
-        node.reverseList();
-    }
-
-
-    public void addNodesToLinkedList() {
-
-        this.data = 1;
+        Node head = new Node();
+        head.data = 1;
 
         // creating second node and attach it to the head
         Node node2 = new Node();
@@ -54,15 +45,15 @@ public class Node implements Cloneable {
         Node node7 = new Node();
         node7.data = 7;
 
-        this.next = node2;
+        head.next = node2;
         node2.next = node3;
         node3.next = node4;
         node4.next = node5;
         node5.next = node6;
         node6.next = node7;
         node7.next = null;
-
-        printLinkedList(this);
+        
+        return head;
     }
 
     @Override
